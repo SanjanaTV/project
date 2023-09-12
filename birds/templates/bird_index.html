@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(../static/bird-4k-download-backgrounds-for-pc-wallpaper-preview.jpg); background-size: cover;">
+<h1 style="text-align: center; font-size: 50px; color: antiquewhite;">Birds Image Prediction</h1><br><br>
+<div style="margin-left: 550px;">
+<form action="/upload" method="post" enctype="multipart/form-data">
+<label style="font-size: 30px; color: azure;">Choose your image </label>
+<input type="file" name="file"><br><br>
+<input type="submit" value="Predict" style="width: 80px; border-radius: 7px; height: 25px;">
+</form>
+<h2 style="font-size: 40px; color: antiquewhite;">{{data}}</h2>
+</body>
+</html>

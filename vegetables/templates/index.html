@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetable prediction</title>
+</head>
+<body style="background-image: url(../static/fresh-fruit-vegetable-flat-lay-raw-organic-vegetables-white-background-175144435.webp); object-fit: cover; background-size: cover;">
+<h1 style="text-align: center; font-size: 50px;">Vegetable Image Prediction</h1><br><br>
+<div style="margin-left: 550px;">
+<form action="/upload" method="post" enctype="multipart/form-data">
+<label style="font-size: 30px;">Choose the image </label>
+<input type="file" name="file"><br><br>
+<input type="submit" value="Predict" style="width: 80px; border-radius: 7px;">
+</form>
+<h1>{{data}}</h1>
+</div>
+</body>
+</html>
