@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(../static/elephant-1822636_1280.jpg); ">
+    <h1 style="text-align: center; font-size: 50px; color: black;">Animal Classification</h1><br><br>
+    <div style="margin-left: 550px;">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    <label style="font-size: 30px; color: black;">Choose your image </label>
+    <input type="file" name="file"><br><br>
+    <input type="submit" value="Predict" style="width: 80px; border-radius: 7px; height: 25px;">
+    </form>
+    <h2 style="font-size: 50px; color: black;">{{data}}</h2> 
+</body>
+</html>
